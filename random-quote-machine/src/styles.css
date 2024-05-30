@@ -1,0 +1,40 @@
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+.quote-author {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+#author {
+  color: whitesmoke;
+}
+
+.quote-text {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+}
+
+#new-quote {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+}
